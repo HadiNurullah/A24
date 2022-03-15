@@ -234,8 +234,30 @@ font-size: 20px;
 transition: 0.5s;
 }
 
-/* Lanjut Disini */
+/* Lanjut Disini Our Partner CSS */
+.contents1 {
+  height: 500px;
+  margin-top: 10px;
+}
 
+.clientList{
+margin: 5px 10px;
+float: left;
+}
+
+.clientList img{
+  height: 70px;
+  width: auto !important;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 /* Icon Back-top */
 .back-to-top {
