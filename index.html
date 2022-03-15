@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="style.css" />
     <!-- icon -->
     <link rel="shortcut icon" href="img/brand-logo.png" />
-    <title>Project Product</title>
+    <title>Company Profile A24</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav>
+    <nav id="home">
       <div class="container">
         <div class="navbar-logo">
           <h1>
@@ -24,8 +24,10 @@
         <div class="navbar-navigation">
           <ul>
             <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">PRODUCT</a></li>
+            <li><a href="#about-us">ABOUT US</a></li>
+            <li><a href="#product">PRODUCT</a></li>
+            <li><a href="#partner">OUR PARTNER</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
             <li><button>LOGIN</button></li>
           </ul>
         </div>
@@ -33,7 +35,6 @@
       </div>
     </nav>
     <!-- Akhir Navbar -->
-
     <!-- Hero Image -->
     <div class="hero-image">
       <div class="container">
@@ -47,13 +48,220 @@
     </div>
     <hr class="line-hero" />
     <!-- Akhir Hero Image -->
-
     <!-- Main -->
     <div class="main">
       <div class="container">
-        <!-- Lanjut Disini -->
+        <div id="about-us">
+          <div class="about-tittle">
+            <h1>About Us</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quasi consequatur odit quibusdam atque a mollitia ipsa facilis velit, ducimus temporibus excepturi illum, quod deserunt eos doloremque sequi porro. Sed eveniet
+              magni adipisci reiciendis neque non iusto expedita consequuntur id.
+            </p>
+          </div>
+          <div class="about-image"></div>
+        </div>
+        <hr class="line-hero" />
+        <div class="about-image-content">
+          <div class="content-1"></div>
+          <div class="content-2"></div>
+          <div class="content-3"></div>
+          <div class="content-4"></div>
+        </div>
+        <!-- Products -->
+        <div class="contents" id="product">
+          <h3 class="section-title">Products</h3>
+          <p>Women</p>
+          <div class="contents-item">
+            <img src="https://i.pinimg.com/originals/da/c6/44/dac644309cf46fa8612233242dae3021.jpg" alt="Flower-Dress" />
+            <p>Dresses</p>
+          </div>
+          <div class="contents-item">
+            <img src="https://img-9gag-fun.9cache.com/photo/aDd7QzG_460s.jpg" alt="Black-Stiletto" />
+            <p>Pumps</p>
+          </div>
+          <div class="contents-item">
+            <img src="https://pics.wikifeet.com/Anya-Taylor-Joy-Feet-5764138.jpg" alt="Red-Handbag" />
+            <p>Handbags</p>
+          </div>
+          <div class="contents-item">
+            <img src="https://www4.pictures.stylebistro.com/gi/Chanel+Outside+Arrivals+Paris+Fashion+Week+7JLMOA6hw7bl.jpg" alt="Earings-&-Rings" />
+            <p>Jewellery</p>
+          </div>
+          <p>Men</p>
+          <div class="contents-item">
+            <img src="https://i.pinimg.com/474x/7a/65/ab/7a65ab0b98182f6d33c5858980aa2e99.jpg" alt="Suit" />
+            <p>Suits and Blazers</p>
+          </div>
+          <div class="contents-item">
+            <img src="https://78.media.tumblr.com/65884d22459232cf885d12710ddae7e9/tumblr_p3fcwkLMqN1v0t5cvo2_1280.png" alt="Lace-Ups" />
+            <p>Lace-Ups</p>
+          </div>
+          <div class="contents-item">
+            <img src="https://i.pinimg.com/originals/33/1d/61/331d61bc280e90be0929c2e2acf5e91a.jpg" alt="Sunglasses" />
+            <p>Sunglasses</p>
+          </div>
+          <div class="contents-item">
+            <img src="https://64.media.tumblr.com/3a1f65b0461d0b730ca34b007b9f8892/ccbed55f58162309-c3/s540x810/5f1ca7ce78c0c1511ae734c01364227ba2a6e9dd.jpg" alt="Wrist-Watch" />
+            <p>Watches</p>
+          </div>
+        </div>
+        <!-- Akhir Products -->
+        <!--Our Partner-->
+        <section class="secClientList" id="partner">
+          <div class="contents1">
+            <h3 class="section-title">Our Partner</h3>
+            <br />
+            <div class="row justify-content-md-center">
+              <div class="clientList">
+                <img src="https://ptdika.com/uploads/images/1623981411_63d47e4e54ffc5230e3a.png" />
+              </div>
+              <div class="clientList">
+                <img src="https://ptdika.com/uploads/images/1623981430_90a60e6d20bd49edd143.png" />
+              </div>
+              <div class="clientList">
+                <img src="img/tokopedia.png" />
+              </div>
+              <div class="clientList">
+                <img src="img/dicoding.png" />
+              </div>
+              <div class="clientList">
+                <img src="img/aws.png" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Akhir Our Partner-->
+        <!--Bagian Contact Us-->
+        <div class="contactUs" id="contact">
+          <div class="title">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="box">
+            <!-- Form -->
+            <div class="contact form">
+              <h3>Send a Message</h3>
+              <form>
+                <div class="formBox">
+                  <div class="row50">
+                    <div class="inputBox">
+                      <span>First Name</span>
+                      <input type="text" placeholder=" " />
+                    </div>
+                    <div class="inputBox">
+                      <span>Last Name</span>
+                      <input type="text" placeholder=" " />
+                    </div>
+                  </div>
+                  <div class="row50">
+                    <div class="inputBox">
+                      <span>Email</span>
+                      <input type="text" placeholder=" " />
+                    </div>
+                    <div class="inputBox">
+                      <span>Phone Number</span>
+                      <input type="text" placeholder=" " />
+                    </div>
+                  </div>
+                  <div class="row100">
+                    <div class="inputBox">
+                      <span>Message</span>
+                      <textarea placeholder="Write your message here..."></textarea>
+                    </div>
+                  </div>
+                  <div class="row100">
+                    <div class="inputBox">
+                      <input type="submit" value="Send" />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Info Box -->
+            <div class="contact info">
+              <h3>Contact Info</h3>
+              <div class="infoBox">
+                <div>
+                  <span><ion-icon name="location"></ion-icon> </span>
+                  <p>Jl. A.H. Nasution No.105, Cibiru, Bandung 40614 <br />INDONESIA</p>
+                </div>
+                <div>
+                  <span><ion-icon name="mail"></ion-icon></span>
+                  <a href="mailto:a24fashionshop@gmail.com">a24fashionshop@gmail.com</a>
+                </div>
+                <div>
+                  <span><ion-icon name="call"></ion-icon></span>
+                  <a href="+62 813 2264 4611">+62 813 2264 4611</a>
+                </div>
+                <!-- Social Media Links-->
+                <ul class="sci">
+                  <li>
+                    <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                  </li>
+                  <li>
+                    <a href="https://id-id.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                  </li>
+                  <li>
+                    <a href="https://shopee.co.id/"><ion-icon name="bag"></ion-icon></a>
+                  </li>
+                  <!--<li><a href="#"><ion-icon name="bag"></ion-icon></a></li>-->
+                </ul>
+              </div>
+            </div>
+            <!-- Map -->
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3960.6551694398922!2d107.7145676141449!3d-6.931754669776297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUIN%20Sunan%20Gunung%20Djati%20Bandung%2C%20Jalan%20A.H.%20Nasution%2C%20Cipadung%20Wetan%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1647247633492!5m2!1sid!2sid"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!--Akhir Contact Us-->
       </div>
     </div>
     <!-- Akhir Main -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <h3>Tugas DTS</h3>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2022 Tugas DTS. designed by <span>Kelompok A24</span></p>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+    <!-- Icon Back-to-top -->
+    <div class="back-to-top">
+      <a href="#home">
+        <i class="fa fa-chevron-up up-1" aria-hidden="true"></i>
+        <i class="fa fa-chevron-up up-2" aria-hidden="true"></i>
+        <i class="fa fa-chevron-up up-3" aria-hidden="true"></i>
+        <p>Top</p>
+      </a>
+    </div>
+    <!-- Akhir Icon Back-to-top -->
   </body>
 </html>
